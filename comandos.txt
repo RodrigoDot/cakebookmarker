@@ -1,0 +1,9 @@
+apos instalar o composer;
+no cmd >>> dar init no composer >>> composer init
+no cmd >>> incluir a requisicao para instalacao do cakephp no composer.json >>> "cakephp/cakephp": "^3.4"
+ou
+no cmd >>> fazer uma requisicao do cakephp direto no composer >>> composer require cakephp/cakephp
+no cmd >>> criar o esqueleto da aplicacao >>> composer self-update && composer create-project --prefer-dist cakephp/app my_app_name
+
+no cmd >>> iniciar o servidor >>> bin\cake server >>> para acessar localhost:8765
+
